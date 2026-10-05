@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
 import { PricingSection } from './components/PricingSection';
@@ -249,6 +250,9 @@ export default function App() {
           <Settings className="w-3.5 h-3.5 text-neutral-400" />
         </button>
       </div>
+
+      {/* Vercel Web Analytics */}
+      <Analytics />
     </div>
   );
 }
