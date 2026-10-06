@@ -1,0 +1,13 @@
+{
+  "name": "LifeHub Worldwide",
+  "short_name": "LifeHub",
+  "description": "Global executive and longevity membership ecosystem directed by James Lenka (Maseru, Lesotho). 24/7 concierge +266 6284 0523, private partner privileges, PayPal $49/month",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#0A192F",
+  "icons": [
+    {"src": "/icon-192x192.png","sizes": "192x192","type": "image/png","purpose": "any maskable"},
+    {"src": "/icon-512x512.png","sizes": "512x512","type": "image/png","purpose": "any maskable"}
+  ]
+}
